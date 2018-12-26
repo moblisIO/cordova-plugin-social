@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="social-cordova-plugin"
+    version="0.0.2">
+    <name>Cordova Plugin Template</name>
+    <description></description>
+    <license>MIT</license>
+    <keywords></keywords>
+    <repo>https://github.com/driftyco/cordova-plugin-template.git</repo>
+    <issue>https://github.com/driftyco/cordova-plugin-template/issues</issue>
+
+    <!-- android -->
+    <platform name="android">
+      <js-module src="www/plugin.js" name="plugin">
+        <runs/>
+
+        <clobbers target="SocialCordovaPlugin" />
+      </js-module>
+      <config-file target="res/xml/config.xml" parent="/*">
+        <feature name="SocialCordovaPlugin">
+          <param name="android-package" value="com.social.SocialCordovaPlugin" />
+          <param name="onload" value="true" />
+        </feature>
+      </config-file>
+
+      <source-file src="src/android/com/social/SocialCordovaPlugin.java" target-dir="src/com/social/" />
+    </platform>
+
+    <!-- ios -->
+    <platform name="ios">
+        <js-module src="www/plugin.js" name="plugin">
+            <runs/>
+            <clobbers target="SocialCordovaPlugin" />
+        </js-module>
+        <config-file target="config.xml" parent="/*">
+            <feature name="SocialCordovaPlugin">
+                <param name="ios-package" value="SocialCordovaPlugin" onload="true" />
+            </feature>
+        </config-file>
+
+        <header-file src="src/ios/SocialCordovaPlugin.h" />
+        <source-file src="src/ios/SocialCordovaPlugin.m" />
+
+        <framework src="Social.framework" weak="true" />
+
+    </platform>
+</plugin>

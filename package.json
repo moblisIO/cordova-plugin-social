@@ -1,0 +1,12 @@
+{
+  "name": "cordova-plugin-social",
+  "version": "0.0.1",
+  "cordova": {
+    "id": "cordova-plugin-social",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "description": "Simple Cordova Social Plugin"
+}
