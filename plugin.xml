@@ -6,20 +6,18 @@
     <author>Moblis Administrator</author>
     <license>MIT</license>  
     
-    <!-- android -->
+    <!-- android -->    
     <platform name="android">
-      <js-module src="www/plugin.js" name="plugin">
-        <runs/>
+      <js-module src="www/plugin.js" name="plugin">        
         <clobbers target="SocialCordovaPlugin" />
       </js-module>
+      <source-file src="src/android/SocialCordovaPlugin.java" target-dir="src/io/cordova/moblis/plugin" />  
       <config-file target="res/xml/config.xml" parent="/*">
         <feature name="SocialCordovaPlugin">
           <param name="android-package" value="io.cordova.moblis.plugin.SocialCordovaPlugin" />
           <param name="onload" value="true" />
         </feature>
-      </config-file>
-
-      <source-file src="src/android/SocialCordovaPlugin.java" target-dir="src/social/" />
+      </config-file>      
     </platform>
 
     <!-- ios -->
