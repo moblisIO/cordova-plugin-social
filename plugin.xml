@@ -14,17 +14,16 @@
     <platform name="android">
       <js-module src="www/plugin.js" name="plugin">
         <runs/>
-
         <clobbers target="SocialCordovaPlugin" />
       </js-module>
       <config-file target="res/xml/config.xml" parent="/*">
         <feature name="SocialCordovaPlugin">
-          <param name="android-package" value="com.social.SocialCordovaPlugin" />
+          <param name="android-package" value="io.cordova.moblis.plugin.SocialCordovaPlugin" />
           <param name="onload" value="true" />
         </feature>
       </config-file>
 
-      <source-file src="src/android/social/SocialCordovaPlugin.java" target-dir="src/social/" />
+      <source-file src="src/android/SocialCordovaPlugin.java" target-dir="src/social/" />
     </platform>
 
     <!-- ios -->
