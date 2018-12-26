@@ -3,7 +3,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
     id="social-cordova-plugin"
     version="0.0.2">
-    <name>Cordova Plugin Template</name>
+    <name>Cordova Social Plugin for Moblis</name>
     <description></description>
     <license>MIT</license>
     <keywords></keywords>
