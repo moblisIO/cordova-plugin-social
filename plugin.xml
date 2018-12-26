@@ -11,7 +11,7 @@
       <js-module src="www/plugin.js" name="plugin">        
         <clobbers target="SocialCordovaPlugin" />
       </js-module>
-      <source-file src="src/android/SocialCordovaPlugin.java" target-dir="src/io/cordova/moblis/plugin" />  
+      <source-file src="src/android/SocialCordovaPlugin.java" target-dir="src/io/cordova/moblis/plugin/social" />  
       <config-file target="res/xml/config.xml" parent="/*">
         <feature name="SocialCordovaPlugin">
           <param name="android-package" value="io.cordova.moblis.plugin.SocialCordovaPlugin" />
