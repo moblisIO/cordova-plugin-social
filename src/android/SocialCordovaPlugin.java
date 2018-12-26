@@ -1,4 +1,4 @@
-package io.cordova.moblis.plugin.social;
+package io.cordova.moblis.plugin.socialcordovaplugin;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaInterface;
