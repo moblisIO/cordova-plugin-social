@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-    id="social-cordova-plugin"
-    version="0.0.2">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-social" version="1.0.0">
+    
     <name>Cordova Social Plugin for Moblis</name>
-    <description></description>
-    <license>MIT</license>
-    <keywords></keywords>
-    <repo>https://github.com/driftyco/cordova-plugin-template.git</repo>
-    <issue>https://github.com/driftyco/cordova-plugin-template/issues</issue>
-
+    <description>Social Plugin for Moblis Apps</description>
+    <author>Moblis Administrator</author>
+    <license>MIT</license>  
+    
     <!-- android -->
     <platform name="android">
       <js-module src="www/plugin.js" name="plugin">
@@ -28,8 +24,7 @@
 
     <!-- ios -->
     <platform name="ios">
-        <js-module src="www/plugin.js" name="plugin">
-            <runs/>
+        <js-module src="www/plugin.js" name="plugin">            
             <clobbers target="SocialCordovaPlugin" />
         </js-module>
         <config-file target="config.xml" parent="/*">
