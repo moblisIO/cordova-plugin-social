@@ -1,6 +1,7 @@
 {
   "name": "cordova-plugin-social",
   "version": "1.0.0",
+  "description": "Simple Cordova Social Plugin",
   "cordova": {
     "id": "cordova-plugin-social",
     "platforms": [
@@ -8,5 +9,22 @@
       "ios"
     ]
   },
-  "description": "Simple Cordova Social Plugin"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moblisIO/cordova-plugin-social.git"
+  },
+  "keywords": [
+    "cordova",    
+    "plugin",
+    "android",
+    "ios",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Moblis Admin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/moblisIO/cordova-plugin-social/issues"
+  },
+  "homepage": "https://github.com/moblisIO/cordova-plugin-social#readme"
 }
