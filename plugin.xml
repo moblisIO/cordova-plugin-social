@@ -24,7 +24,7 @@
         </feature>
       </config-file>
 
-      <source-file src="src/android/com/social/SocialCordovaPlugin.java" target-dir="src/com/social/" />
+      <source-file src="src/android/SocialCordovaPlugin.java" target-dir="src/com/social/" />
     </platform>
 
     <!-- ios -->
